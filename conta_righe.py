@@ -1,6 +1,11 @@
 with open ('input.txt', 'r') as file: 
-    righe = file.readlines() 
+    contenuto = file.read() 
+    righe = contenuto.split('\n')
 
 numero_righe = len(righe) 
 
-print(f"Il file contiene {numero_righe} righe")
+parole = contenuto.split()
+numero_parole = len(parole)
+
+print(f"Il file contiene {numero_righe} righe") 
+print(f"Il file contiene {numero_parole} parole") 

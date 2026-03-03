@@ -1,0 +1,8 @@
+friuli 
+calabria 
+piemonte 
+sicilia
+liguria 
+toscana 
+emilia 
+campania 
